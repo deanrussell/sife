@@ -2,3 +2,20 @@ html, body {
 	margin:0;
 	padding:0;
 }
+
+.panel-cover {
+	display: block;
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	z-index: 0;
+	background: #666666;
+	background-image: url("home_bkgd.jpg"); /* fallback */
+	background-image: url("home_bkgd.jpg"), -webkit-gradient(linear, left top, left bottom, from(#666666), to(#E6E6E6)); /* Saf4+, Chrome */
+	background-image: url("home_bkgd.jpg"), -webkit-linear-gradient(top, #666666, #E6E6E6); /* Chrome 10+, Saf5.1+ */
+	background-image: url("home_bkgd.jpg"),    -moz-linear-gradient(top, #666666, #E6E6E6); /* FF3.6+ */
+	background-image: url("home_bkgd.jpg"),     -ms-linear-gradient(top, #666666, #E6E6E6); /* IE10 */
+	background-image: url("home_bkgd.jpg"),      -o-linear-gradient(top, #666666, #E6E6E6); /* Opera 11.10+ */
+	background-image: url("home_bkgd.jpg"),         linear-gradient(to bottom, #666666, #E6E6E6); /* W3C */
+	background-size: cover;
+}

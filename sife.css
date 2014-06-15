@@ -50,13 +50,6 @@ ul, li {
     background-image: -ms-linear-gradient(top, rgba(26, 26, 26, 0), rgba(26, 26, 26, 0.75)), url("home_bkgd.jpg");
     background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(26, 26, 26, 0)), to(rgba(26, 26, 26, 0.75))), url("home_bkgd.jpg");
     background-image: -webkit-linear-gradient(top, rgba(26, 26, 26, 0), rgba(26, 26, 26, 0.75)), url("home_bkgd.jpg");
-	/* background-image: url("home_bkgd.jpg"); /* fallback */
-	/* background-image: url("home_bkgd.jpg"), -webkit-gradient(linear, left top, left bottom, from(#666666), to(#E6E6E6)); /* Saf4+, Chrome */
-	/* background-image: url("home_bkgd.jpg"), -webkit-linear-gradient(top, #666666, #E6E6E6); /* Chrome 10+, Saf5.1+ */
-	/* background-image: url("home_bkgd.jpg"),    -moz-linear-gradient(top, #666666, #E6E6E6); /* FF3.6+ */
-	/* background-image: url("home_bkgd.jpg"),     -ms-linear-gradient(top, #666666, #E6E6E6); /* IE10 */
-	/* background-image: url("home_bkgd.jpg"),      -o-linear-gradient(top, #666666, #E6E6E6); /* Opera 11.10+ */
-	/* background-image: url("home_bkgd.jpg"),         linear-gradient(to bottom, #666666, #E6E6E6); /* W3C */
 	background-size: cover;
 }
 .panel-cover:after {

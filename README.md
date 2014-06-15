@@ -1,4 +1,5 @@
-sife
-====
+HTML, CSS & JS
 
-HTML + CSS for a simple, clean personal blog. The objective is to host a place for all of my class notes from Startup Institute's Front End Dev course.
+---
+
+For a clean, personal blog. Used in this blueprint for publishing class notes from the Startup Institue's Front-End Web Dev RampUp course.

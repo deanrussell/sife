@@ -159,12 +159,12 @@ a .panel-main__logo:active {
 
 /* CSS ANIMATIONS */
 
-.panel-cover {
-	transition: 3s ease-in-out;
-		-webkit-transition: 3s ease-in-out;
-		-ms-transition: 3s ease-in-out;
-		-moz-transition: 3s ease-in-out;
-		-o-transition: 3s ease-in-out;
+.move-panel-cover {
+	transition: .75s ease-in-out;
+		-webkit-transition: .75s ease-in-out;
+		-ms-transition: .75s ease-in-out;
+		-moz-transition: .75s ease-in-out;
+		-o-transition: .75s ease-in-out;
 	transform: translate (-50%);
 		-webkit-transform: translate(-50%);
 		-ms-transform: translate(-50%);
@@ -172,12 +172,12 @@ a .panel-main__logo:active {
 		-o-transform: translate(-50%);
 }
 
-.panel-main__inner {
-	transition: 3s ease-in-out;
-		-webkit-transition: 3s ease-in-out;
-		-ms-transition: 3s ease-in-out;
-		-moz-transition: 3s ease-in-out;
-		-o-transition: 3s ease-in-out;
+.move-panel-main__inner {
+	transition: .75s ease-in-out;
+		-webkit-transition: .75s ease-in-out;
+		-ms-transition: .75s ease-in-out;
+		-moz-transition: .75s ease-in-out;
+		-o-transition: .75s ease-in-out;
 	transform: translate (25%);
 		-webkit-transform: translate(25%);
 		-ms-transform: translate(25%);

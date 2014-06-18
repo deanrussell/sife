@@ -131,7 +131,7 @@ a .panel-main__logo:active {
 }
 
 .all-button:hover {
-	background-color: #1A6666;
+	background-color: rgba(26, 102, 102, 0.65); /*convert to Hex: #1A6666 (with % opacity)*/
 	border-color: #99FFCC;
 }
 
@@ -155,16 +155,47 @@ a .panel-main__logo:active {
 	font-size: 125%;
 }
 
+.arrow {
+	height: 10px;
+	font-size: 300%;
+	font-weight: bold;
+	float: right;
+	z-index: 2;
+	border-radius: 100%;
+	padding: 0px 7px 45px 7px;
+	vertical-align: middle;
+	margin: -40% 30%;
+}
 
+.arrow_border {
+	border: 2px solid;
+}
 
-/* CSS ANIMATIONS */
+/* CSS ANIMATIONS PRE-CLASSED */
 
-.move-panel-cover {
+.move-panel-cover__slow {
 	transition: .75s ease-in-out;
 		-webkit-transition: .75s ease-in-out;
 		-ms-transition: .75s ease-in-out;
 		-moz-transition: .75s ease-in-out;
 		-o-transition: .75s ease-in-out;
+}
+
+.move-panel-cover__inner__slow {
+	transition: .75s ease-in-out;
+		-webkit-transition: .75s ease-in-out;
+		-ms-transition: .75s ease-in-out;
+		-moz-transition: .75s ease-in-out;
+		-o-transition: .75s ease-in-out;
+}
+
+.arrow__wrapper {
+	visibility: hidden;
+}
+
+/* CSS ANIMATIONS POST-CLASSED (w/jQuery) */
+
+.move-panel-cover {
 	transform: translate (-50%);
 		-webkit-transform: translate(-50%);
 		-ms-transform: translate(-50%);
@@ -173,14 +204,10 @@ a .panel-main__logo:active {
 }
 
 .move-panel-main__inner {
-	transition: .75s ease-in-out;
-		-webkit-transition: .75s ease-in-out;
-		-ms-transition: .75s ease-in-out;
-		-moz-transition: .75s ease-in-out;
-		-o-transition: .75s ease-in-out;
 	transform: translate (25%);
 		-webkit-transform: translate(25%);
 		-ms-transform: translate(25%);
 		-moz-transform: translate(25%);
 		-o-transform: translate(25%);
 }
+
